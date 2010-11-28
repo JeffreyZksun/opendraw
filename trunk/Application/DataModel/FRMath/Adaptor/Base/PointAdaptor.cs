@@ -40,7 +40,7 @@ namespace FRMath.Adaptor
         #region Clone
         public PointAdaptor Clone()
         {
-            return MathAdaptorFactory.Instance.CreatePlaneAdaptor(X, Y, Z);
+            return MathAdaptorFactory.Instance.CreatePointAdaptor(X, Y, Z);
         }       
 
         #endregion
@@ -72,7 +72,7 @@ namespace FRMath.Adaptor
         public static PointAdaptor operator +(PointAdaptor sp,
             VectorAdaptor distance)
         {
-            return MathAdaptorFactory.Instance.CreatePlaneAdaptor(sp.X + distance.X
+            return MathAdaptorFactory.Instance.CreatePointAdaptor(sp.X + distance.X
                 , sp.Y + distance.Y, sp.Z + distance.Z);
         }
 
