@@ -1,0 +1,19 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Windows.Forms;
+
+namespace AppInterface
+{
+    public class CSharpExample : IScript
+    {
+        public void Initialize(IApplication Host)
+        {
+            // Do nothing.
+        }
+        public void Main()
+        {
+            MessageBox.Show("Hello World");
+        }
+    }
+}

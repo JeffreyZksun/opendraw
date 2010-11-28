@@ -1,0 +1,189 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2E89722B-CF3C-411D-82B9-2830328CFE59}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FRFramework</RootNamespace>
+    <AssemblyName>FRFramework</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CsGL, Version=1.4.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ThreeParty\CSGL\CsGL.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Application\Application.cs" />
+    <Compile Include="Application\Document.cs" />
+    <Compile Include="Application\View\PtView.cs" />
+    <Compile Include="Application\View\ViewPaintObserver.cs" />
+    <Compile Include="Application\View\ViewTransformManipulator.cs" />
+    <Compile Include="Command\CommandBase\Command.cs" />
+    <Compile Include="Command\CommandBase\CommandGroup.cs" />
+    <Compile Include="Command\CommandBase\CommandManager.cs" />
+    <Compile Include="Command\CommandBase\CommandResolver.cs" />
+    <Compile Include="Command\CommandBase\ICommandObserver.cs" />
+    <Compile Include="Command\CommandBase\PtxContextCommand.cs" />
+    <Compile Include="Command\CommandBase\StateCommand.cs" />
+    <Compile Include="Command\CommandStateMachine\DataItem.cs" />
+    <Compile Include="Command\CommandStateMachine\EventTarget.cs" />
+    <Compile Include="Command\CommandStateMachine\State.cs" />
+    <Compile Include="Command\CommandStateMachine\StateContext.cs" />
+    <Compile Include="Command\CommandStateMachine\StateManager.cs" />
+    <Compile Include="Command\CommandUI\Button\PtxToolBar.cs" />
+    <Compile Include="Command\CommandUI\Button\PtxToolButton.cs" />
+    <Compile Include="Command\CommandUI\Menu\PtxContextMenu.cs" />
+    <Compile Include="Command\CommandUI\Menu\PtxMainMenu.cs" />
+    <Compile Include="Command\CommandUI\Menu\PtxMenuItem.cs" />
+    <Compile Include="Command\CommandUI\PtxCommandUIManager.cs" />
+    <Compile Include="Command\CommonState\SpacePointSelectState.cs" />
+    <Compile Include="Command\CommonState\SpacePointSelectTarget.cs" />
+    <Compile Include="Extension\Attributes\FRComponentEntryAttribute.cs" />
+    <Compile Include="Extension\Attributes\FRExtensionAttribute.cs" />
+    <Compile Include="Extension\FWComponetManager.cs" />
+    <Compile Include="Extension\FWComponent.cs" />
+    <Compile Include="GraphicNode\GraphicNode.cs" />
+    <Compile Include="Manipulator\Manipulator.cs" />
+    <Compile Include="Observer\IObserver.cs" />
+    <Compile Include="Observer\ObserverManager.cs" />
+    <Compile Include="Observer\ObserverWrapper.cs" />
+    <Compile Include="Observer\SubjectEvent.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Request\ChangeRequest.cs" />
+    <Compile Include="SelectCommand\DrSelectCmd.cs" />
+    <Compile Include="SelectCommand\PtSelectContext.cs" />
+    <Compile Include="SelectCommand\SelectState.cs" />
+    <Compile Include="SelectCommand\SelectTarget.cs" />
+    <Compile Include="Select\Selection.cs" />
+    <Compile Include="Select\SelectionCreator.cs" />
+    <Compile Include="Snap\GeometryVisitor.cs" />
+    <Compile Include="Snap\PositionIntent.cs" />
+    <Compile Include="Snap\SnapContext.cs" />
+    <Compile Include="Snap\SnapMatcher.cs" />
+    <Compile Include="TextDialog\TextDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TextDialog\TextDialog.Designer.cs">
+      <DependentUpon>TextDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TextDialog\TextDialogData.cs" />
+    <Compile Include="TextDialog\TextDialogUtil.cs" />
+    <Compile Include="ViewCommands\Rotate\DrViewRotateCmd.cs" />
+    <Compile Include="ViewCommands\Rotate\RotateGraphicObserver.cs" />
+    <Compile Include="ViewCommands\Rotate\RotateLeafState.cs" />
+    <Compile Include="ViewCommands\Rotate\RotateNodeState.cs" />
+    <Compile Include="ViewCommands\Rotate\RotateTarget.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataModel\FRContainer\FRContainer.csproj">
+      <Project>{ECC0A4EE-1B85-46C3-9E4E-39C3973EFF42}</Project>
+      <Name>FRContainer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataModel\FRFrameworkModel\FRFrameworkModel.csproj">
+      <Project>{4BE51D13-C496-4DC8-BAFB-059443FD3B7B}</Project>
+      <Name>FRFrameworkModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataModel\FRGraphic\FRGraphic.csproj">
+      <Project>{9A178346-0FD2-4E6D-A42B-1A5682B0CEE4}</Project>
+      <Name>FRGraphic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataModel\FRMath\FRMath.csproj">
+      <Project>{AD26A147-6064-409F-868F-C011EB1A90E6}</Project>
+      <Name>FRMath</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataModel\FRText\FRText.csproj">
+      <Project>{19374DEF-07DA-49CC-B9A4-2D68C762339A}</Project>
+      <Name>FRText</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Graphic\FROpenGL\FROpenGL.csproj">
+      <Project>{8603F8CE-4677-446B-9AA4-AC2925C8B43B}</Project>
+      <Name>FROpenGL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource\CursorShapes\Drawing.cur" />
+    <EmbeddedResource Include="Resource\CursorShapes\Move.cur" />
+    <EmbeddedResource Include="Resource\CursorShapes\Resize.cur" />
+    <EmbeddedResource Include="Resource\CursorShapes\SelectArrow.cur" />
+    <EmbeddedResource Include="Resource\CursorShapes\SnapPoint.cur" />
+    <EmbeddedResource Include="Resource\CursorShapes\SnapPointOnLine.cur" />
+    <EmbeddedResource Include="Resource\CursorShapes\Translation.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="TextDialog\TextDialog.resx">
+      <DependentUpon>TextDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
