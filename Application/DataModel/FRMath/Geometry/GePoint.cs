@@ -19,22 +19,22 @@ namespace FRMath
         #region Constructors
         public GePoint()
         {
-            m_Proxy = MathAdaptorFactory.Instance.CreatePlaneAdaptor(0, 0, 0);
+            m_Proxy = MathAdaptorFactory.Instance.CreatePointAdaptor(0, 0, 0);
         }
 
         public GePoint(double xx, double yy)
         {
-            m_Proxy = MathAdaptorFactory.Instance.CreatePlaneAdaptor(xx, yy, 0);
+            m_Proxy = MathAdaptorFactory.Instance.CreatePointAdaptor(xx, yy, 0);
         }
 
         public GePoint(double xx, double yy, double zz)
         {
-            m_Proxy = MathAdaptorFactory.Instance.CreatePlaneAdaptor(xx, yy, zz);
+            m_Proxy = MathAdaptorFactory.Instance.CreatePointAdaptor(xx, yy, zz);
         }       
 
         public GePoint(GePoint src)
         {
-            m_Proxy = MathAdaptorFactory.Instance.CreatePlaneAdaptor(
+            m_Proxy = MathAdaptorFactory.Instance.CreatePointAdaptor(
                 src.X, src.Y, src.Z);
         }
 

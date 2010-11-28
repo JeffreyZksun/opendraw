@@ -30,7 +30,7 @@ namespace FRMath.Adaptor
             return new MathLibPlaneAdaptor();
         }
 
-        public override PointAdaptor CreatePlaneAdaptor(double xx, double yy, double zz)
+        public override PointAdaptor CreatePointAdaptor(double xx, double yy, double zz)
         {
             return new MathLibPointAdaptor();
         }

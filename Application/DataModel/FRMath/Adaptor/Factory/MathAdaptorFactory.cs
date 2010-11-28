@@ -32,7 +32,7 @@ namespace FRMath.Adaptor
 
         public abstract PlaneAdaptor CreatePlaneAdaptor(PointAdaptor point, UnitVectorAdaptor Normal);
 
-        public abstract PointAdaptor CreatePlaneAdaptor(double xx, double yy, double zz);
+        public abstract PointAdaptor CreatePointAdaptor(double xx, double yy, double zz);
 
         public abstract VectorAdaptor CreateVectorAdaptor(double xx, double yy, double zz);
 
