@@ -14,7 +14,7 @@ namespace FRMath.Adaptor
     {
         #region Implementation
 
-        public Matrix44Adaptor SetRotate(UnitVectorAdaptor fromDirection
+        public virtual Matrix44Adaptor SetRotate(UnitVectorAdaptor fromDirection
     , UnitVectorAdaptor toDirection, PointAdaptor basePoint)
         {
             Debug.Assert(fromDirection != null && toDirection != null
