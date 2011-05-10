@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="T:\DevelopTools\NUnit\NUnit-2.4.6-net-2.0\bin\NUnitTests.nunit" total="112" failures="0" not-run="0" date="2008-02-16" time="17:54:38">
+  <environment nunit-version="2.4.6.0" clr-version="2.0.50727.832" os-version="Microsoft Windows NT 5.1.2600 Service Pack 2" platform="Win32NT" cwd="T:\TestProjects\NUnitTestProjects\bin\Debug" machine-name="SUNZHONGKUI" user="zksun" user-domain="SUNZHONGKUI" />
+  <culture-info current-culture="zh-CN" current-uiculture="zh-CN" />
+  <test-suite name="T:\DevelopTools\NUnit\NUnit-2.4.6-net-2.0\bin\NUnitTests.nunit" success="True" time="1.047" asserts="0">
+    <results>
+      <test-suite name="T:\DevelopTools\NUnit\NUnit-2.4.6-net-2.0\bin\nunit.framework.tests.dll" success="True" time="1.047" asserts="0">
+        <results>
+          <test-suite name="NUnit" success="True" time="1.047" asserts="0">
+            <results>
+              <test-suite name="Framework" success="True" time="1.016" asserts="0">
+                <results>
+                  <test-suite name="Constraints" success="True" time="1.000" asserts="0">
+                    <results>
+                      <test-suite name="Tests" success="True" time="1.000" asserts="0">
+                        <results>
+                          <test-suite name="AllItemsTests" success="True" time="0.188" asserts="0">
+                            <results>
+                              <test-case name="NUnit.Framework.Constraints.Tests.AllItemsTests.AllItemsAreInRange" executed="True" success="True" time="0.016" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.AllItemsTests.AllItemsAreInRangeFailureMessage" executed="True" success="True" time="0.094" asserts="2" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.AllItemsTests.AllItemsAreInstancesOfType" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.AllItemsTests.AllItemsAreInstancesOfTypeFailureMessage" executed="True" success="True" time="0.016" asserts="2" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.AllItemsTests.AllItemsAreNotNull" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.AllItemsTests.AllItemsAreNotNullFails" executed="True" success="True" time="0.016" asserts="2" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="AndTest" success="True" time="0.016" asserts="0">
+                            <results>
+                              <test-case name="NUnit.Framework.Constraints.Tests.AndTest.CanCombineTestsWithAndOperator" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.AndTest.FailsOnBadValues" executed="True" success="True" time="0.000" asserts="2" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.AndTest.ProvidesProperDescription" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.AndTest.ProvidesProperFailureMessage" executed="True" success="True" time="0.000" asserts="3" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.AndTest.SucceedsOnGoodValues" executed="True" success="True" time="0.000" asserts="1" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="AssignableFromTest" success="True" time="0.016" asserts="0">
+                            <results>
+                              <test-case name="NUnit.Framework.Constraints.Tests.AssignableFromTest.FailsOnBadValues" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.AssignableFromTest.ProvidesProperDescription" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.AssignableFromTest.ProvidesProperFailureMessage" executed="True" success="True" time="0.000" asserts="3" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.AssignableFromTest.SucceedsOnGoodValues" executed="True" success="True" time="0.000" asserts="2" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="CollectionContainsTests" success="True" time="0.016" asserts="0">
+                            <results>
+                              <test-case name="NUnit.Framework.Constraints.Tests.CollectionContainsTests.CanTestContentsOfArray" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.CollectionContainsTests.CanTestContentsOfArrayList" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.CollectionContainsTests.CanTestContentsOfCollectionNotImplementingIList" executed="True" success="True" time="0.016" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.CollectionContainsTests.CanTestContentsOfSortedList" executed="True" success="True" time="0.000" asserts="2" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="EmptyTest" success="True" time="0.016" asserts="0">
+                            <results>
+                              <test-case name="NUnit.Framework.Constraints.Tests.EmptyTest.FailsOnBadValues" executed="True" success="True" time="0.000" asserts="2" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.EmptyTest.NullGivesArgumentException" executed="True" success="True" time="0.016" asserts="0" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.EmptyTest.ProvidesProperDescription" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.EmptyTest.ProvidesProperFailureMessage" executed="True" success="True" time="0.000" asserts="3" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.EmptyTest.SucceedsOnGoodValues" executed="True" success="True" time="0.000" asserts="3" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="EndsWithTest" success="True" time="0.016" asserts="0">
+                            <results>
+                              <test-case name="NUnit.Framework.Constraints.Tests.EndsWithTest.FailsOnBadValues" executed="True" success="True" time="0.016" asserts="6" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.EndsWithTest.ProvidesProperDescription" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.EndsWithTest.ProvidesProperFailureMessage" executed="True" success="True" time="0.000" asserts="3" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.EndsWithTest.SucceedsOnGoodValues" executed="True" success="True" time="0.000" asserts="2" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="EndsWithTestIgnoringCase" success="True" time="0.016" asserts="0">
+                            <results>
+                              <test-case name="NUnit.Framework.Constraints.Tests.EndsWithTestIgnoringCase.FailsOnBadValues" executed="True" success="True" time="0.000" asserts="6" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.EndsWithTestIgnoringCase.ProvidesProperDescription" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.EndsWithTestIgnoringCase.ProvidesProperFailureMessage" executed="True" success="True" time="0.000" asserts="3" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.EndsWithTestIgnoringCase.SucceedsOnGoodValues" executed="True" success="True" time="0.000" asserts="2" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="EqualIgnoringCaseTest" success="True" time="0.016" asserts="0">
+                            <results>
+                              <test-case name="NUnit.Framework.Constraints.Tests.EqualIgnoringCaseTest.FailsOnBadValues" executed="True" success="True" time="0.000" asserts="4" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.EqualIgnoringCaseTest.ProvidesProperDescription" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.EqualIgnoringCaseTest.ProvidesProperFailureMessage" executed="True" success="True" time="0.000" asserts="3" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.EqualIgnoringCaseTest.SucceedsOnGoodValues" executed="True" success="True" time="0.000" asserts="3" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="EqualTest" success="True" time="0.141" asserts="0">
+                            <results>
+                              <test-case name="NUnit.Framework.Constraints.Tests.EqualTest.CanCompareDates" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.EqualTest.CanCompareDatesWithinTolerance" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.EqualTest.FailedStringMatchShowsFailurePosition" executed="True" success="True" time="0.016" asserts="2" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.EqualTest.FailsOnBadValues" executed="True" success="True" time="0.000" asserts="3" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.EqualTest.LongStringsAreTruncated" executed="True" success="True" time="0.016" asserts="2" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.EqualTest.LongStringsAreTruncatedAtBothEndsIfNecessary" executed="True" success="True" time="0.031" asserts="2" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.EqualTest.LongStringsAreTruncatedAtFrontEndIfNecessary" executed="True" success="True" time="0.000" asserts="2" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.EqualTest.NANsCompareAsEqual" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.EqualTest.ProvidesProperDescription" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.EqualTest.ProvidesProperFailureMessage" executed="True" success="True" time="0.000" asserts="3" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.EqualTest.SucceedsOnGoodValues" executed="True" success="True" time="0.016" asserts="4" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="ExactTypeTest" success="True" time="0.016" asserts="0">
+                            <results>
+                              <test-case name="NUnit.Framework.Constraints.Tests.ExactTypeTest.FailsOnBadValues" executed="True" success="True" time="0.000" asserts="2" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.ExactTypeTest.ProvidesProperDescription" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.ExactTypeTest.ProvidesProperFailureMessage" executed="True" success="True" time="0.000" asserts="3" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.ExactTypeTest.SucceedsOnGoodValues" executed="True" success="True" time="0.000" asserts="1" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="GreaterThanOrEqualTest" success="True" time="0.109" asserts="0">
+                            <results>
+                              <test-case name="NUnit.Framework.Constraints.Tests.GreaterThanOrEqualTest.BadTypeGivesError" executed="True" success="True" time="0.047" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.GreaterThanOrEqualTest.FailsOnBadValues" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.GreaterThanOrEqualTest.NullGivesError" executed="True" success="True" time="0.031" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.GreaterThanOrEqualTest.ProvidesProperDescription" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.GreaterThanOrEqualTest.ProvidesProperFailureMessage" executed="True" success="True" time="0.000" asserts="3" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.GreaterThanOrEqualTest.SucceedsOnGoodValues" executed="True" success="True" time="0.000" asserts="2" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="GreaterThanTest" success="True" time="0.063" asserts="0">
+                            <results>
+                              <test-case name="NUnit.Framework.Constraints.Tests.GreaterThanTest.BadTypeGivesError" executed="True" success="True" time="0.031" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.GreaterThanTest.FailsOnBadValues" executed="True" success="True" time="0.000" asserts="2" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.GreaterThanTest.NullGivesError" executed="True" success="True" time="0.016" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.GreaterThanTest.ProvidesProperDescription" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.GreaterThanTest.ProvidesProperFailureMessage" executed="True" success="True" time="0.000" asserts="3" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.GreaterThanTest.SucceedsOnGoodValues" executed="True" success="True" time="0.000" asserts="1" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="InstanceOfTypeTest" success="True" time="0.016" asserts="0">
+                            <results>
+                              <test-case name="NUnit.Framework.Constraints.Tests.InstanceOfTypeTest.FailsOnBadValues" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.InstanceOfTypeTest.ProvidesProperDescription" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.InstanceOfTypeTest.ProvidesProperFailureMessage" executed="True" success="True" time="0.000" asserts="3" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.InstanceOfTypeTest.SucceedsOnGoodValues" executed="True" success="True" time="0.000" asserts="2" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="LessThanOrEqualTest" success="True" time="0.063" asserts="0">
+                            <results>
+                              <test-case name="NUnit.Framework.Constraints.Tests.LessThanOrEqualTest.BadTypeGivesError" executed="True" success="True" time="0.016" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.LessThanOrEqualTest.FailsOnBadValues" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.LessThanOrEqualTest.NullGivesError" executed="True" success="True" time="0.031" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.LessThanOrEqualTest.ProvidesProperDescription" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.LessThanOrEqualTest.ProvidesProperFailureMessage" executed="True" success="True" time="0.000" asserts="3" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.LessThanOrEqualTest.SucceedsOnGoodValues" executed="True" success="True" time="0.000" asserts="2" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="LessThanTest" success="True" time="0.063" asserts="0">
+                            <results>
+                              <test-case name="NUnit.Framework.Constraints.Tests.LessThanTest.BadTypeGivesError" executed="True" success="True" time="0.016" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.LessThanTest.FailsOnBadValues" executed="True" success="True" time="0.000" asserts="2" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.LessThanTest.NullGivesError" executed="True" success="True" time="0.031" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.LessThanTest.ProvidesProperDescription" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.LessThanTest.ProvidesProperFailureMessage" executed="True" success="True" time="0.000" asserts="3" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.LessThanTest.SucceedsOnGoodValues" executed="True" success="True" time="0.000" asserts="1" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="NotTest" success="True" time="0.063" asserts="0">
+                            <results>
+                              <test-case name="NUnit.Framework.Constraints.Tests.NotTest.CanUseNotOperator" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.NotTest.FailsOnBadValues" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.NotTest.NotHonorsIgnoreCaseUsingConstructors" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.NotTest.NotHonorsIgnoreCaseUsingPrefixNotation" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.NotTest.NotHonorsTolerance" executed="True" success="True" time="0.016" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.NotTest.ProvidesProperDescription" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.NotTest.ProvidesProperFailureMessage" executed="True" success="True" time="0.000" asserts="3" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.NotTest.SucceedsOnGoodValues" executed="True" success="True" time="0.000" asserts="2" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="OrTest" success="True" time="0.016" asserts="0">
+                            <results>
+                              <test-case name="NUnit.Framework.Constraints.Tests.OrTest.CanCombineTestsWithOrOperator" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.OrTest.FailsOnBadValues" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.OrTest.ProvidesProperDescription" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.OrTest.ProvidesProperFailureMessage" executed="True" success="True" time="0.000" asserts="3" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.OrTest.SucceedsOnGoodValues" executed="True" success="True" time="0.000" asserts="2" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="SameAsTest" success="True" time="0.016" asserts="0">
+                            <results>
+                              <test-case name="NUnit.Framework.Constraints.Tests.SameAsTest.FailsOnBadValues" executed="True" success="True" time="0.000" asserts="3" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.SameAsTest.ProvidesProperDescription" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.SameAsTest.ProvidesProperFailureMessage" executed="True" success="True" time="0.000" asserts="3" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.SameAsTest.SucceedsOnGoodValues" executed="True" success="True" time="0.000" asserts="1" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="StartsWithTest" success="True" time="0.016" asserts="0">
+                            <results>
+                              <test-case name="NUnit.Framework.Constraints.Tests.StartsWithTest.FailsOnBadValues" executed="True" success="True" time="0.000" asserts="6" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.StartsWithTest.ProvidesProperDescription" executed="True" success="True" time="0.016" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.StartsWithTest.ProvidesProperFailureMessage" executed="True" success="True" time="0.000" asserts="3" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.StartsWithTest.SucceedsOnGoodValues" executed="True" success="True" time="0.000" asserts="2" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="StartsWithTestIgnoringCase" success="True" time="0.016" asserts="0">
+                            <results>
+                              <test-case name="NUnit.Framework.Constraints.Tests.StartsWithTestIgnoringCase.FailsOnBadValues" executed="True" success="True" time="0.000" asserts="6" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.StartsWithTestIgnoringCase.ProvidesProperDescription" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.StartsWithTestIgnoringCase.ProvidesProperFailureMessage" executed="True" success="True" time="0.000" asserts="3" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.StartsWithTestIgnoringCase.SucceedsOnGoodValues" executed="True" success="True" time="0.000" asserts="2" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="SubstringTest" success="True" time="0.016" asserts="0">
+                            <results>
+                              <test-case name="NUnit.Framework.Constraints.Tests.SubstringTest.FailsOnBadValues" executed="True" success="True" time="0.000" asserts="4" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.SubstringTest.ProvidesProperDescription" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.SubstringTest.ProvidesProperFailureMessage" executed="True" success="True" time="0.000" asserts="3" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.SubstringTest.SucceedsOnGoodValues" executed="True" success="True" time="0.000" asserts="4" />
+                            </results>
+                          </test-suite>
+                          <test-suite name="SubstringTestIgnoringCase" success="True" time="0.016" asserts="0">
+                            <results>
+                              <test-case name="NUnit.Framework.Constraints.Tests.SubstringTestIgnoringCase.FailsOnBadValues" executed="True" success="True" time="0.000" asserts="4" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.SubstringTestIgnoringCase.ProvidesProperDescription" executed="True" success="True" time="0.000" asserts="1" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.SubstringTestIgnoringCase.ProvidesProperFailureMessage" executed="True" success="True" time="0.000" asserts="3" />
+                              <test-case name="NUnit.Framework.Constraints.Tests.SubstringTestIgnoringCase.SucceedsOnGoodValues" executed="True" success="True" time="0.000" asserts="4" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
